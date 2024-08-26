@@ -139,8 +139,7 @@ public class BaseTest {
             browserChrome = System.getenv("browser");
 
            // driver = new RemoteWebDriver(new URL("https://hubclouddev.testinium.com/wd/hub"), capabilities);
-           // driver = new RemoteWebDriver(new URL("http://host.docker.internal:4444/wd/hub"), capabilities);
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
+           driver = new RemoteWebDriver(new URL("http://host.docker.internal:4444/wd/hub"), capabilities);
 
         }
 
